@@ -1,0 +1,194 @@
+body{
+    height: 300px;
+    padding-top: 40px;
+    padding-left: 85px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    background-color: white;
+    padding-left: 10px;
+    
+
+}
+.right{
+    margin-left: 20px;
+}
+.menu{
+    font-size: 20px;
+
+}
+.menu:hover{
+    cursor: pointer;
+}
+.img1{
+    height: 30px;
+    vertical-align: bottom;
+    margin-left: 20px;  
+}
+.middle{
+    position: relative;
+}
+.search{
+    height: 30px;
+    width: 380px; 
+    padding-left: 10px;
+    padding-right: 50px;
+    margin-left: 0px;
+}
+.search::placeholder{
+    font-size: 16px;
+}
+.search-icon{
+    height: 35px;
+    width: 45px;
+    position: absolute; 
+    right: 65px;
+    top: 2px;
+}
+.search-icon:hover{
+    cursor: pointer;
+}
+.mic-icon{
+    height: 40px;
+    width: 40px; 
+    border-radius: 50px;
+    border: none;
+    margin-left: 20px;
+    /* position: absolute; 
+    right: 0; */
+}
+.mic-icon:hover{
+    cursor: pointer;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width:180px;
+      
+}
+.icon1{
+    
+}
+.icon1:hover{
+    cursor: pointer;
+    background-color: rgb(215, 214, 214);
+    
+}
+.profile:hover{
+    cursor: pointer;
+}
+.profile, .profilee{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 25px;
+}
+
+.sidebar{
+    position: fixed;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.1) ;
+    height: 100vh;
+    width: 90px;
+    padding-top: 20px;
+    z-index: 200;
+    border-right: 1px solid gray;
+    
+
+}
+.icon{
+    font-size: 25px;
+    align-items: center;
+    
+}
+.tab{
+    margin: 0;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+.icons:hover{
+    background-color: rgb(215, 214, 214);
+    height: 60px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.videogrid{
+    width: 1385px;
+    height: 700px;
+    /* height: 100vh; */
+    display: grid;
+    margin-top: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:10px;
+    row-gap: 5px;
+    background-color: rgb(236, 231, 231);
+    padding-left: 40px;
+    
+    
+}
+.videos{
+    width: 300px;
+    display: block;
+}
+.videoimg{
+    width: 100%; 
+    margin-top: 30px;
+}
+/* .video{
+    width: 100%;
+
+} */
+.profiletext{
+    /* display: inline-block;
+    margin-top: 10px; */
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    margin-top: 10px;
+    
+}
+
+.videoprofile{
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.text{
+    width: 230px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.author{
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+}
+.view{
+    margin-top:0;
+}
